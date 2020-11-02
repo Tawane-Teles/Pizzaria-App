@@ -4,17 +4,19 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_pizzas"
+            android:icon="@drawable/ic_pizza"
+            android:title="@string/menu_pizza" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_lanches"
+            android:icon="@drawable/ic_comida_rapida"
+            android:title="@string/menu_lanches" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_refrigerantes"
+            android:icon="@drawable/ic_refrigerantes"
+            android:title="@string/menu_refrigerantes" />
+
     </group>
 </menu>
